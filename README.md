@@ -1,3 +1,3 @@
 # Trainee_1
-My first trainee task\n
+My first trainee task
 Devs
