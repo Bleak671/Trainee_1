@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    margin: 0px;
+    background-image: url("images/hdr_all.png");
+}
+
+.back {
+    width: 100%;
+}
