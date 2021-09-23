@@ -2,11 +2,190 @@ body {
     margin: 0px;
 }
 
-.header {
-    margin: 0px;
-    background-image: url("images/hdr_all.png");
+a {
+    text-decoration: none;
 }
 
-.back {
+.menu_item {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    align-self:center;
+    font-family: Arial;
+}
+
+.menu_item_login {
+    border-radius: 5px;
+    background-color:rgba(70,70,70,0.2);
+    font-family: Arial;
+}
+
+.header {
+    height: 56.5vw;
+    background-size: 100%;
+    background-image: url(images/hdr_bg.png);
+    display: flex;
+}
+
+.header_menu {
     width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.header_content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header_text {
+    width: 50%;
+}
+
+.header_image {
+    filter:drop-shadow(0px 7px 5px rgba(63,63,63,0.9));
+    max-width: none;
+}
+
+.header_image_earphones {
+    margin-left: auto;
+}
+
+.header_buttons {
+    margin-top: 50px;
+    display: flex;
+}
+
+.header_button {
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_button_gplay {
+    margin-right: 30px;
+    background-color: white; 
+}
+
+.header_button_lmore {
+    background-color:rgba(70,70,70,0.2);
+}
+
+.header_left_space {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header_center {
+    width: 70%;
+}
+
+.header_right_space {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our_serv {
+    margin-top: 50px;
+}
+
+.our_serv_head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_serv_content {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.our_serv_content_block {
+    padding: 30px;
+    width: 20%;
+    text-align: center;
+}
+
+.custom {
+    height: 48vw;
+    background-size: 100%;
+    background-image: url(images/ftr_bg.png);
+    display: flex;
+}
+
+.custom_photo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.custom_content {
+    padding-top: 8vw;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom_content_row {
+    display: flex;
+    align-items: center;
+}
+
+.custom_text {
+    padding-left: 20px;
+}
+
+.custom_button {
+    width: 100px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: deepskyblue;
+    border-radius: 30px;
+}
+
+.other_serv_content {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 40px;
+    margin-top: 15px;
+    margin-right: auto;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+}
+
+.text_white {
+    color: white;
+}
+
+.text_gray {
+    color: rgb(119, 119, 119);
 }
