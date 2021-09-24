@@ -24,12 +24,6 @@ footer {
 }
 
 /*Properties of header block*/
-.menu_item_login {
-    border-radius: 5px;
-    font-family: Arial;
-    background-color:rgba(70,70,70,0.2);
-}
-
 .header {
     height: 56.5vw;
     display: flex;
@@ -39,10 +33,11 @@ footer {
 
 .header_menu {
     width: 100%;
-    height: 70px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: right;
+    align-items: center;
 }
 
 .header_content {
@@ -325,6 +320,30 @@ footer {
     color: black;
 }
 
+.font_raleway {
+    font-family: Raleway;
+}
+
+.font_size_huge {
+    font-size: 40px;
+}
+
+.font_size_big {
+    font-size: 32px;
+}
+
+.font_size_medium {
+    font-size: 26px;
+}
+
+.font_size_little {
+    font-size: 20px;
+}
+
+.font_size_tiny {
+    font-size: 14px;
+}
+
 .bg_mild_blue {
     background-color: #f5fafa;
 }
@@ -334,11 +353,23 @@ footer {
 }
 
 .menu_item {
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     align-self:center;
     font-family: Arial;
+}
+
+.menu_item_login {
+    border-radius: 10px;
+    font-family: Arial;
+    background-color:rgba(70,70,70,0.2);
+}
+
+/*Шрифты*/
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-Medium.ttf);
+    font-style: normal;
 }
