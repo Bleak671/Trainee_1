@@ -16,6 +16,13 @@ input {
     border-width: 0px;
 }
 
+footer {
+    width: 66%;
+    margin-left: 17%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
 /*Properties of header block*/
 .menu_item_login {
     border-radius: 5px;
@@ -248,12 +255,28 @@ input {
     box-shadow: #f6f8f8 0em 0.5em 0.3em;
 }
 
+/*Properties of block with links*/
+.links {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 17%;
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links_column {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 /*Styles, that might be reused*/
 .logo {
     height: 40px;
     margin-top: 5px;
     margin-right: auto;
-    padding: 10px;
 }
 
 .img {
@@ -278,6 +301,10 @@ input {
     margin-top: 10px;
 }
 
+.text_margin_bottom {
+    margin-bottom: 10px;
+}
+
 .text_margin_left {
     margin-left: 10px;
 }
@@ -292,6 +319,10 @@ input {
 
 .text_gray {   
     color: rgb(119, 119, 119);
+}
+
+.text_black {
+    color: black;
 }
 
 .bg_mild_blue {
