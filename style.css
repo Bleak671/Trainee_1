@@ -1,3 +1,4 @@
+/*Common props for object types*/
 body {
     margin: 0px;
 }
@@ -6,27 +7,27 @@ a {
     text-decoration: none;
 }
 
-.menu_item {
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    padding: 10px;
-    align-self:center;
-    font-family: Arial;
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
+input {
+    border-width: 0px;
+}
+
+/*Properties of header block*/
 .menu_item_login {
     border-radius: 5px;
-    background-color:rgba(70,70,70,0.2);
     font-family: Arial;
+    background-color:rgba(70,70,70,0.2);
 }
 
 .header {
     height: 56.5vw;
+    display: flex;
     background-size: 100%;
     background-image: url(images/hdr_bg.png);
-    display: flex;
 }
 
 .header_menu {
@@ -48,8 +49,8 @@ a {
 }
 
 .header_image {
-    filter:drop-shadow(0px 7px 5px rgba(63,63,63,0.9));
     max-width: none;
+    filter:drop-shadow(0px 7px 5px rgba(63,63,63,0.9));
 }
 
 .header_image_earphones {
@@ -97,12 +98,14 @@ a {
     justify-content: center;
 }
 
+/*Properties of block "our services"*/
 .our_serv {
     margin-top: 50px;
 }
 
 .our_serv_head {
     width: 100%;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,11 +126,12 @@ a {
     text-align: center;
 }
 
+/*Properties of block "custom features"*/
 .custom {
     height: 48vw;
+    display: flex;
     background-size: 100%;
     background-image: url(images/ftr_bg.png);
-    display: flex;
 }
 
 .custom_photo {
@@ -143,6 +147,10 @@ a {
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.custom_content_header {
+    margin-bottom: 50px;
 }
 
 .custom_content_row {
@@ -162,19 +170,98 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    background-color: deepskyblue;
     border-radius: 30px;
 }
 
+/*Properties of block "other services"*/
 .other_serv_content {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.other_serv_block {
+    width: 20%;
+    margin-right: 30px;
+}
+
+/*Properties of block "what customer say"*/
+.comment {
+    height: 47vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100%;
+    background-image: url(images/cst_bg.png);
+}
+
+.comment_content {
+    width: 60%;
+    height: 27vw;
+    text-align: center;
+    background-size: 100%;
+    background-image: url(images/cst_comment.png); 
+    background-repeat: no-repeat;
+}
+
+.comment_text {
+    padding-top: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.comment_buttons {
     display: flex;
     justify-content: center;
 }
 
+.comment_button {
+    margin: 20px;
+    display: flex;
+}
+
+/*Properties of block "subscribe now"*/
+.subscribe {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.subscribe_blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe_block {
+    margin-bottom: 30px;
+    height: 60px;
+    width: 300px;
+    border-color: #f6f8f8;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #f6f8f8 0em 0.5em 0.3em;
+}
+
+/*Styles, that might be reused*/
 .logo {
     height: 40px;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-right: auto;
+    padding: 10px;
+}
+
+.img {
+    width: 45px;
+    max-height: 45px;
+    margin-right: 15px;
+    padding-bottom: auto;
+    object-fit: contain;
 }
 
 .dot {
@@ -182,10 +269,45 @@ a {
     height: 20px;
 }
 
+.dividor {
+    padding-left: 15%;
+    width: 70%;
+}
+
+.text_margin_top {
+    margin-top: 10px;
+}
+
+.text_margin_left {
+    margin-left: 10px;
+}
+
+.text_margin_right {
+    margin-right: 10px;
+}
+
 .text_white {
     color: white;
 }
 
-.text_gray {
+.text_gray {   
     color: rgb(119, 119, 119);
+}
+
+.bg_mild_blue {
+    background-color: #f5fafa;
+}
+
+.bg_blue {
+    background-color: deepskyblue;
+}
+
+.menu_item {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    align-self:center;
+    font-family: Arial;
 }
