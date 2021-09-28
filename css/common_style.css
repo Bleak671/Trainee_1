@@ -60,9 +60,35 @@ ul li {
 }
 
 .dividor {
-    height: 1px;
-    width: 100%;
-    background-image: url("../images/hdr_dividor.png");
+    width: 30px;
+    border-color: deepskyblue;
+}
+
+.casual_text {
+    color: rgb(119, 119, 119);
+    font-family: 'Raleway-Medium';
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.nav_text {
+    color: white;
+    font-family: 'Raleway-SemiBold';
+    font-size: 14px;
+}
+
+.list_text {
+    color: rgb(119, 119, 119);
+    font-family: 'Raleway-Medium';
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.list_text_header {
+    color: #494949;
+    font-family: 'Raleway-Bold';
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .text_margin_top {
@@ -74,7 +100,7 @@ ul li {
 }
 
 .text_margin_left {
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .text_margin_right {
@@ -143,7 +169,7 @@ ul li {
 
 .bg_blue {
     background-color: deepskyblue;
-}   
+}
 
 .menu_item {
     padding-left: 1vw;
@@ -158,28 +184,29 @@ ul li {
 }
 
 @font-face {
-	font-family: 'Raleway-Medium';
-	src: url('../fonts/Raleway-Medium.eot');
-	src: url('../fonts/Raleway-Medium.woff') format('woff'), url('../fonts/Raleway-Medium.ttf') format('truetype'), url('../fonts/Raleway-Medium.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.eot');
+    src: url('../fonts/Raleway-Medium.woff') format('woff'), url('../fonts/Raleway-Medium.ttf') format('truetype'), url('../fonts/Raleway-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Raleway-Bold';
-	src: url('../fonts/Raleway-Bold.eot');
-	src: url('../fonts/Raleway-Bold.woff') format('woff'), url('../fonts/Raleway-Bold.ttf') format('truetype'), url('../fonts/Raleway-Bold.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold.eot');
+    src: url('../fonts/Raleway-Bold.woff') format('woff'), url('../fonts/Raleway-Bold.ttf') format('truetype'), url('../fonts/Raleway-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Raleway-SemiBold';
-	src: url('../fonts/Raleway-SemiBold.eot');
-	src: url('../fonts/Raleway-SemiBold.woff') format('woff'), url('../fonts/Raleway-SemiBold.ttf') format('truetype'), url('../fonts/Raleway-SemiBold.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Raleway-SemiBold';
+    src: url('../fonts/Raleway-SemiBold.eot');
+    src: url('../fonts/Raleway-SemiBold.woff') format('woff'), url('../fonts/Raleway-SemiBold.ttf') format('truetype'), url('../fonts/Raleway-SemiBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
     font-family: 'Museo Slab';
     src: url('../fonts/MuseoSlab-500.eot');
