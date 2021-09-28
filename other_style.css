@@ -1,0 +1,13 @@
+/*Properties of block "other services"*/
+
+.other_serv_content {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.other_serv_block {
+    width: 20%;
+    margin-right: 30px;
+}

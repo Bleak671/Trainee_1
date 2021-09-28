@@ -1,0 +1,76 @@
+/*Properties of header block*/
+
+.header {
+    height: 56vw;
+    display: flex;
+    background-size: 100%;
+    background-image: url(images/hdr_bg.png);
+}
+
+.header_menu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.header_center {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header_content {
+    height: 80%;
+    padding-bottom: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.header_text {
+    height: 70%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header_buttons {
+    margin-top: 5%;
+    display: flex;
+}
+
+.header_button {
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 43%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_button_gplay {
+    margin-right: auto;
+    background-color: white;
+}
+
+.header_button_lmore {
+    background-color: rgba(70, 70, 70, 0.2);
+}
+
+.header_left_space {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header_right_space {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

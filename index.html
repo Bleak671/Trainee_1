@@ -4,13 +4,21 @@
 <head>
     <meta charset="utf-8" />
     <title>Flaby</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="header_style.css">
+    <link rel="stylesheet" type="text/css" href="our_style.css">
+    <link rel="stylesheet" type="text/css" href="custom_style.css">
+    <link rel="stylesheet" type="text/css" href="other_style.css">
+    <link rel="stylesheet" type="text/css" href="comment_style.css">
+    <link rel="stylesheet" type="text/css" href="subscribe_style.css">
+    <link rel="stylesheet" type="text/css" href="links_style.css">
+    <link rel="stylesheet" type="text/css" href="common_style.css">
+    <link rel="stylesheet" type="text/css" href="img_style.css">
 </head>
 
 <body>
-    <div class="header">
+    <div class="header" id="head1">
         <div class="header_left_space">
-            <image class="header_image" src="images/hdr_headphones.png" width="90%"></image>
+            <image class="header_image" src=images/hdr_headphones.png width="90%"></image>
             <image class="header_image" src="images/hdr_pencil.png" width="70%"></image>
         </div>
         <div class="header_center">
@@ -23,17 +31,19 @@
                 <a class="text_white menu_item font_raleway_sb font_size_tiny" href="#">CONTACT US</a>
                 <a class="text_white menu_item_login menu_item font_raleway_sb font_size_tiny" href="#">LOGIN</a>
             </div>
-            <image src="images/hdr_dividor.png" width="100%"></image>
+            <div>
+                <hr>
+            </div>
             <div class="header_content">
                 <div class="header_text">
-                    <h1 class="text_white font_museo font_size_huge">FLAT + FREE = FLABY</h1>
+                    <p class="text_white font_museo font_size_huge">FLAT + FREE = FLABY</p>
                     <p class="text_white font_raleway font_size_medium">A Modern Flat design corporate template for free download with all great features and trendy look.</p>
                     <div class="header_buttons">
-                        <div class="header_button header_button_gplay" href="#">
-                            <image class="menu_item" src="images/hdr_google_play.png"></image>
+                        <div class="header_button header_button_gplay" style="cursor: pointer;">
+                            <image src="images/hdr_google_play.png"></image>
                             <a class="menu_item font_raleway_sb font_size_little">Google Store</a>
                         </div>
-                        <div class="header_button header_button_lmore" href="#">
+                        <div class="header_button header_button_lmore" style="cursor: pointer;">
                             <a class="text_white menu_item font_raleway_sb font_size_little">Learn More</a>
                         </div>
                     </div>
@@ -45,7 +55,7 @@
         </div>
     </div>
 
-    <div class="our_serv">
+    <div class="our_serv" id="head2">
         <div class="our_serv_head">
             <p class="text_gray font_roboto font_size_little">Welcome to</p>
             <p class="font_roboto font_size_medium text_margin_bottom text_margin_top text_mildblack">OUR SERVICES</p>
@@ -70,7 +80,7 @@
         </div>
     </div>
 
-    <div class="custom">
+    <div class="custom" id="head3">
         <div class="custom_photo">
             <image src="images/ftr_mockup.png" width="80%"></image>
         </div>
@@ -80,31 +90,17 @@
                 <p class="font_raleway_sb font_size_big  text_margin_bottom text_mildblack">Unlimited Customization Features</p>
                 <p class="text_gray font_raleway font_size_little">There are many variations of passages of Lorem Ipsum available, the majorityalteration make difficult</p>
             </div>
-            <div class="custom_content_row">
-                <image class="dot" src="images/ftr_point.png">
-                    </imgage>
-                    <p class="text_gray text_margin_top text_margin_bottom custom_text font_raleway font_size_tiny">More wordpress features with great responsive design.</p>
-            </div>
-            <div class="custom_content_row">
-                <image class="dot" src="images/ftr_point.png">
-                    </imgage>
-                    <p class="text_gray text_margin_top text_margin_bottom custom_text font_raleway font_size_tiny">Corporate flat design with nesessary elements.</p>
-            </div>
-            <div class="custom_content_row">
-                <image class="dot" src="images/ftr_point.png">
-                    </imgage>
-                    <p class="text_gray text_margin_top text_margin_bottom custom_text font_raleway font_size_tiny">Free vector shape and mockup by great designer.</p>
-            </div>
-            <div class="custom_content_row">
-                <image class="dot" src="images/ftr_point.png">
-                    </imgage>
-                    <p class="text_gray text_margin_top text_margin_bottom custom_text font_raleway font_size_tiny">Full one page flat and modern trend following goods.</p>
-            </div>
+            <ul>
+                <li class="text_gray custom_text font_raleway font_size_tiny">More wordpress features with great responsive design.</li>
+                <li class="text_gray custom_text font_raleway font_size_tiny">Corporate flat design with nesessary elements.</li>
+                <li class="text_gray custom_text font_raleway font_size_tiny">Free vector shape and mockup by great designer.</li>
+                <li class="text_gray custom_text font_raleway font_size_tiny">Full one page flat and modern trend following goods.</li>
+            </ul>
             <a class="text_white custom_button bg_blue font_raleway_b font_size_tiny" href="#">READ MORE</a>
         </div>
     </div>
 
-    <div class="our_serv">
+    <div class="our_serv" id="head4">
         <div class="our_serv_head">
             <p class="text_gray font_roboto font_size_tiny text_margin_bottom">View Our Latest</p>
             <p class="text_mildblack font_roboto font_size_medium text_margin_bottom">OTHER SERVICES</p>
@@ -146,7 +142,7 @@
         </div>
     </div>
 
-    <div class="comment">
+    <div class="comment" id="head5">
         <div class="our_serv_head">
             <p class="text_gray font_roboto font_size_tiny text_margin_bottom">Get know About</p>
             <p class="text_mildblack font_roboto font_size_medium text_margin_bottom">WHAT CUSTOMER SAY</p>
@@ -171,7 +167,7 @@
         </div>
     </div>
 
-    <div class="subscribe">
+    <div class="subscribe" id="head6">
         <div class="our_serv_head">
             <p class="text_gray font_roboto font_size_tiny text_margin_bottom">For latest newsletter</p>
             <p class="text_mildblack font_roboto font_size_medium text_margin_bottom">SUBSCRIBE NOW</p>
@@ -179,106 +175,74 @@
         </div>
         <div class="subscribe_blocks">
             <div class="subscribe_block">
-                <input class="text_gray font_raleway_b font_size_tiny" value="Nicky Moa">
+                <input class="text_mildblack font_raleway_b font_size_tiny" placeholder="Nicky Moa">
             </div>
             <div class="subscribe_block bg_mild_blue">
-                <input class="text_gray font_raleway_b font_size_tiny bg_mild_blue" value="Example@gmail.com">
+                <input class="text_gray font_raleway_b font_size_tiny bg_mild_blue" placeholder="Example@gmail.com">
             </div>
             <div class="subscribe_block bg_blue">
                 <p class="text_white font_raleway_b font_size_tiny">Subscribe</p>
             </div>
         </div>
+        <hr class="hr">
     </div>
-    <image class="dividor" src="images/ftr_dividor.png"></image>
 
-    <div class="links">
+    <div class="links" id="head7">
         <div class="links_column_first">
             <image class="logo" src="images/etc_logo.png"></image>
             <p class="text_gray text_margin_bottom text_margin_top font_raleway font_size_tiny">Flaby is a free flat template and available for free downloads but please don't use for sell</p>
             <div class="links_social">
-                <image src="images/etc_facebook.png"></image>
-                <image src="images/etc_google.png"></image>
-                <image src="images/etc_twitter.png"></image>
+                <a href="https://facebook.com">
+                    <image src="images/etc_facebook.png" link="facebook.com"></image>
+                </a>
+                <a href="https://google.com">
+                    <image src="images/etc_google.png"></image>
+                </a>
+                <a href="https://twitter.com">
+                    <image src="images/etc_twitter.png"></image>
+                </a>
             </div>
         </div>
         <div class="links_column">
-            <p class="text_mildblack font_raleway_b font_size_little text_margin_bottom">Useful Link</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_top text_margin_bottom">Resource</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Downloads</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Graphics</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Templates</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">UI colors</p>
+            <a class="text_mildblack font_raleway_b font_size_little text_margin_bottom">Useful Link</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_top text_margin_bottom">Resource</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Downloads</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Graphics</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Templates</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">UI colors</a>
         </div>
         <div class="links_column">
-            <p class="text_mildblack font_raleway_b font_size_little text_margin_bottom">Free Goods</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom text_margin_top">Movies</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Music</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Videos</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Games</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Application</p>
+            <a class="text_mildblack font_raleway_b font_size_little text_margin_bottom">Free Goods</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom text_margin_top">Movies</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Music</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Videos</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Games</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Application</a>
         </div>
         <div class="links_column">
-            <p class="text_mildblack font_raleway_b font_size_little text_margin_bottom">Elements</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom text_margin_top">UI Elements</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Materials</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Flat UI</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Print File</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Flyer</p>
+            <a class="text_mildblack font_raleway_b font_size_little text_margin_bottom">Elements</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom text_margin_top">UI Elements</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Materials</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Flat UI</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Print File</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom">Flyer</a>
         </div>
         <div class="links_column">
-            <p class="text_mildblack font_raleway_b font_size_little text_margin_bottom">About Us</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom text_margin_top">Home</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Portfolio</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Layout</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Blog</p>
-            <p class="text_gray font_raleway font_size_tiny text_margin_bottom">Contact Us</p>
+            <a class="text_mildblack font_raleway_b font_size_little text_margin_bottom" href="#head2">About Us</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom text_margin_top" href="#head1">Home</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom" href="#head4">Portfolio</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom" href="#head7">Layout</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom" href="#head5">Blog</a>
+            <a class="text_gray font_raleway font_size_tiny text_margin_bottom" href="#head6">Contact Us</a>
         </div>
     </div>
+    <hr class="hr">
 
-    <image class="dividor" src="images/ftr_dividor.png"></image>
     <footer>
         <p class="text_gray font_raleway">© Copyright 2017 | All rights reserved | Template Designed By <b>Sourabh Baura</b></p>
     </footer>
 
-    <script>
-        let texts = ["Great Team with great experience, i would reguler recommended to all that eou will get better support by working with this awesome team and their expert members :)",
-            "Wonderful!",
-            "That's what I was looking for!"
-        ];
-
-        let names = ["Sourabh B.",
-            "Max O.",
-            "Vasya P."
-        ];
-
-        let titles = ["Co Founder of Mew",
-            "Trainee",
-            "Myth"
-        ]
-
-        let state = 0;
-
-        function next() {
-            if (state == 2) {
-                state = 0;
-            } else {
-                state++;
-            }
-            document.getElementById("text").innerText = texts[state];
-            document.getElementById("name").innerText = names[state];
-            document.getElementById("title").innerText = titles[state];
-        }
-
-        function prev() {
-            if (state == 0) {
-                state = 2;
-            } else {
-                state--;
-            }
-            document.getElementById("text").innerText = texts[state];
-            document.getElementById("name").innerText = names[state];
-            document.getElementById("title").innerText = titles[state];
-        }
+    <script src="script.js">
     </script>
 
 </body>
