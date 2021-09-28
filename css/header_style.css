@@ -24,7 +24,8 @@
 }
 
 .header_content {
-    height: 80%;
+    height: 100%;
+    padding-top: 5%;
     padding-bottom: auto;
     display: flex;
     align-items: flex-start;
@@ -49,7 +50,8 @@
     border-radius: 8px;
     width: 43%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header_button_gplay {
@@ -59,6 +61,7 @@
 
 .header_button_lmore {
     background-color: rgba(70, 70, 70, 0.2);
+    text-align:center;
 }
 
 .header_left_space {

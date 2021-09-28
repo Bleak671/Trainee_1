@@ -2,7 +2,7 @@
 
 .comment {
     height: 50vw;
-    padding: 30px;
+    padding: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +11,8 @@
 }
 
 .comment_content {
-    width: 60%;
-    height: 27vw;
+    width: 70%;
+    height: 30vw;
     text-align: center;
     background-size: 100%;
     background-image: url(../images/cst_comment.png);
@@ -21,8 +21,8 @@
 
 .comment_text {
     padding-top: 15%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .comment_buttons {
