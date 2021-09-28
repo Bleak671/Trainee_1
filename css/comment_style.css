@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     background-size: 100%;
-    background-image: url(images/cst_bg.png);
+    background-image: url(../images/cst_bg.png);
 }
 
 .comment_content {
@@ -15,7 +15,7 @@
     height: 27vw;
     text-align: center;
     background-size: 100%;
-    background-image: url(images/cst_comment.png);
+    background-image: url(../images/cst_comment.png);
     background-repeat: no-repeat;
 }
 

@@ -4,7 +4,7 @@
     height: 48vw;
     display: flex;
     background-size: 100%;
-    background-image: url(images/ftr_bg.png);
+    background-image: url(../images/ftr_bg.png);
 }
 
 .custom_photo {

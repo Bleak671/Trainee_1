@@ -4,7 +4,7 @@
     height: 56vw;
     display: flex;
     background-size: 100%;
-    background-image: url(images/hdr_bg.png);
+    background-image: url(../images/hdr_bg.png);
 }
 
 .header_menu {
