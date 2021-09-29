@@ -1,0 +1,224 @@
+/*Common props for object types*/
+
+body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+input {
+    border-width: 0px;
+    outline: none;
+}
+
+footer {
+    width: 66%;
+    margin-left: 17%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+ul li {
+    background-image: url(../images/ftr_point.png);
+    background-position: 0 0;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+
+/*Styles, that might be reused*/
+
+.logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-right: auto;
+}
+
+.img {
+    width: 45px;
+    max-height: 45px;
+    margin-right: 15px;
+    padding-bottom: auto;
+    object-fit: contain;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+}
+
+.dividor {
+    width: 30px;
+    border-color: deepskyblue;
+}
+
+.casual_text {
+    color: rgb(119, 119, 119);
+    font-family: 'Raleway-Medium';
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.nav_text {
+    color: white;
+    font-family: 'Raleway-SemiBold';
+    font-size: 14px;
+}
+
+.list_text {
+    color: rgb(119, 119, 119);
+    font-family: 'Raleway-Medium';
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.list_text_header {
+    color: #494949;
+    font-family: 'Raleway-Bold';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text_margin_top {
+    margin-top: 10px;
+}
+
+.text_margin_bottom {
+    margin-bottom: 10px;
+}
+
+.text_margin_left {
+    margin-left: 30px;
+}
+
+.text_margin_right {
+    margin-right: 10px;
+}
+
+.text_white {
+    color: white;
+}
+
+.text_gray {
+    color: rgb(119, 119, 119);
+}
+
+.text_black {
+    color: black;
+}
+
+.text_mildblack {
+    color: #494949;
+}
+
+.font_raleway {
+    font-family: 'Raleway-Medium';
+}
+
+.font_raleway_b {
+    font-family: 'Raleway-Bold';
+}
+
+.font_raleway_sb {
+    font-family: 'Raleway-SemiBold';
+}
+
+.font_museo {
+    font-family: 'Museo Slab';
+}
+
+.font_roboto {
+    font-family: 'Roboto Slab';
+}
+
+.font_size_huge {
+    font-size: 40px;
+}
+
+.font_size_big {
+    font-size: 32px;
+}
+
+.font_size_medium {
+    font-size: 26px;
+}
+
+.font_size_little {
+    font-size: 20px;
+}
+
+.font_size_tiny {
+    font-size: 14px;
+}
+
+.bg_mild_blue {
+    background-color: #f5fafa;
+}
+
+.bg_blue {
+    background-color: deepskyblue;
+}
+
+.menu_item {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.menu_item_login {
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.2);
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.eot');
+    src: url('../fonts/Raleway-Medium.woff') format('woff'), url('../fonts/Raleway-Medium.ttf') format('truetype'), url('../fonts/Raleway-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold.eot');
+    src: url('../fonts/Raleway-Bold.woff') format('woff'), url('../fonts/Raleway-Bold.ttf') format('truetype'), url('../fonts/Raleway-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('../fonts/Raleway-SemiBold.eot');
+    src: url('../fonts/Raleway-SemiBold.woff') format('woff'), url('../fonts/Raleway-SemiBold.ttf') format('truetype'), url('../fonts/Raleway-SemiBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab';
+    src: url('../fonts/MuseoSlab-500.eot');
+    src: url('../fonts/MuseoSlab-500.woff') format('woff'), url('../fonts/MuseoSlab-500.ttf') format('truetype'), url('../fonts/MuseoSlab-500.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Regular.eot');
+    src: url('../fonts/RobotoSlab-Regular.woff') format('woff'), url('../fonts/RobotoSlab-Regular.ttf') format('truetype'), url('../fonts/RobotoSlab-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

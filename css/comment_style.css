@@ -1,0 +1,36 @@
+/*Properties of block "what customer say"*/
+
+.comment {
+    height: 50vw;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100%;
+    background-image: url(../images/cst_bg.png);
+}
+
+.comment_content {
+    width: 70%;
+    height: 30vw;
+    text-align: center;
+    background-size: 100%;
+    background-image: url(../images/cst_comment.png);
+    background-repeat: no-repeat;
+}
+
+.comment_text {
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.comment_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.comment_button {
+    margin: 20px;
+    display: flex;
+}

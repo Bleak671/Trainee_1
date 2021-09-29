@@ -1,0 +1,52 @@
+/*Properties of block "custom features"*/
+
+.custom {
+    height: 48vw;
+    display: flex;
+    background-size: 100%;
+    background-image: url(../images/ftr_bg.png);
+}
+
+.custom_photo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.custom_content {
+    padding-top: 8vw;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.custom_content_header {
+    margin-bottom: 5%;
+}
+
+.custom_content_row {
+    display: flex;
+    align-items: center;
+}
+
+.custom_button {
+    width: 100px;
+    margin-top: 3%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.custom_text {
+    color: rgb(119, 119, 119);
+    font-family: 'Raleway-Medium';
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}

@@ -1,2 +1,1 @@
-# Trainee_1
-My first trainee task
+My first trainee task!
